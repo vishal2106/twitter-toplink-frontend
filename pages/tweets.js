@@ -88,6 +88,7 @@ function Tweets({ data }) {
 
                       <Col>
                       <Card.Text>{f.date}</Card.Text>
+                      
                       </Col>
 
                       </Row>
@@ -98,7 +99,7 @@ function Tweets({ data }) {
                     <Card.Link href={f.url}>{f.url}</Card.Link>
                   </Card.Body>
                   <Card.Footer>
-                    <Card.Text><b>Sentiment:</b>{f.sentiment}</Card.Text>
+
                   </Card.Footer>
                 </Card> 
             );
