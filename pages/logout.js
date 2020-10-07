@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Twitter Toplinks</title>
+        <title>Thank you!</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
@@ -31,10 +31,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <Card bg="warning">
+      <Card bg="warning">
           <Card.Body>
             <Card.Text>
-            <h3>Login with Twitter to continue</h3>
+            <h3>Thank you! You can re-login</h3>
             </Card.Text>
 
             <br></br>
@@ -42,8 +42,6 @@ export default function Home() {
           </Card.Body>
           <Button onClick={requestToken} className="align-center">Twitter Login</Button>          
         </Card>
-        
-        
       </main>
 
       <style jsx>{`
